@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8F852D1A8007F300254A3E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8F852B1A8007F300254A3E /* SettingsViewController.m */; };
+		EC8F852E1A8007F300254A3E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8F852C1A8007F300254A3E /* SettingsViewController.xib */; };
 		ECC13DEB1A7FEA7900DB585F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC13DEA1A7FEA7900DB585F /* main.m */; };
 		ECC13DEE1A7FEA7900DB585F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC13DED1A7FEA7900DB585F /* AppDelegate.m */; };
 		ECC13DF11A7FEA7900DB585F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC13DF01A7FEA7900DB585F /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		ECC13DF61A7FEA7900DB585F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC13DF51A7FEA7900DB585F /* Images.xcassets */; };
 		ECC13DF91A7FEA7900DB585F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC13DF71A7FEA7900DB585F /* LaunchScreen.xib */; };
 		ECC13E051A7FEA7900DB585F /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC13E041A7FEA7900DB585F /* tipcalculatorTests.m */; };
+		ECC13E111A7FEBF300DB585F /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC13E0F1A7FEBF300DB585F /* TipViewController.m */; };
+		ECC13E121A7FEBF300DB585F /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECC13E101A7FEBF300DB585F /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC8F852A1A8007F300254A3E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EC8F852B1A8007F300254A3E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		EC8F852C1A8007F300254A3E /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		ECC13DE51A7FEA7900DB585F /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC13DE91A7FEA7900DB585F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECC13DEA1A7FEA7900DB585F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		ECC13DFE1A7FEA7900DB585F /* tipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC13E031A7FEA7900DB585F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECC13E041A7FEA7900DB585F /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		ECC13E0E1A7FEBF300DB585F /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipViewController.h; path = /Users/rromero/Desktop/tipcalculator/tipcalculator/TipViewController.h; sourceTree = "<absolute>"; };
+		ECC13E0F1A7FEBF300DB585F /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		ECC13E101A7FEBF300DB585F /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,12 @@
 		ECC13DE71A7FEA7900DB585F /* tipcalculator */ = {
 			isa = PBXGroup;
 			children = (
+				ECC13E0E1A7FEBF300DB585F /* TipViewController.h */,
+				ECC13E0F1A7FEBF300DB585F /* TipViewController.m */,
+				ECC13E101A7FEBF300DB585F /* TipViewController.xib */,
+				EC8F852A1A8007F300254A3E /* SettingsViewController.h */,
+				EC8F852B1A8007F300254A3E /* SettingsViewController.m */,
+				EC8F852C1A8007F300254A3E /* SettingsViewController.xib */,
 				ECC13DEC1A7FEA7900DB585F /* AppDelegate.h */,
 				ECC13DED1A7FEA7900DB585F /* AppDelegate.m */,
 				ECC13DEF1A7FEA7900DB585F /* ViewController.h */,
@@ -201,7 +217,9 @@
 			files = (
 				ECC13DF41A7FEA7900DB585F /* Main.storyboard in Resources */,
 				ECC13DF91A7FEA7900DB585F /* LaunchScreen.xib in Resources */,
+				ECC13E121A7FEBF300DB585F /* TipViewController.xib in Resources */,
 				ECC13DF61A7FEA7900DB585F /* Images.xcassets in Resources */,
+				EC8F852E1A8007F300254A3E /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +239,8 @@
 			files = (
 				ECC13DF11A7FEA7900DB585F /* ViewController.m in Sources */,
 				ECC13DEE1A7FEA7900DB585F /* AppDelegate.m in Sources */,
+				EC8F852D1A8007F300254A3E /* SettingsViewController.m in Sources */,
+				ECC13E111A7FEBF300DB585F /* TipViewController.m in Sources */,
 				ECC13DEB1A7FEA7900DB585F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +434,7 @@
 				ECC13E0A1A7FEA7900DB585F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC13E0B1A7FEA7900DB585F /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				ECC13E0D1A7FEA7900DB585F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
